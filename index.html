@@ -1,52 +1,147 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tuningservice Vest</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuningservice Vest – Mobil eksosrens & AdBlue</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <!-- Logo and heading overlay the hero background image. The logo comes from
-         tuningservice.no and is provided locally in this project. -->
-    <div class="overlay">
-      <img src="tuningservice_logo.png" alt="Tuningservice logo" class="logo">
-      <h1>Tuningservice Vest</h1>
-      <p>Mobil tuning og diagnose for anleggsmaskiner</p>
+  <!-- Header / Navigation / Hero section -->
+  <header id="home">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home"><img src="tuningservice_logo.png" alt="Tuningservice Vest" /></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Hjem</a></li>
+        <li><a href="#services">Tjenester</a></li>
+        <li><a href="#about">Om oss</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Mobil spesialist på eksosrens &amp; AdBlue</h1>
+        <p>For anleggsmaskiner – vi kommer til deg!</p>
+        <a href="#contact" class="btn-primary">Kontakt oss</a>
+      </div>
     </div>
   </header>
 
-  <section class="services">
-    <div class="container">
-      <h2>Våre tjenester</h2>
-      <p>Vi tilbyr optimalisering av motorstyring, rens av partikkelfilter (DPF), deaktivert AdBlue/EGR (kun for maskiner utenfor offentlig vei), og diagnostikk av eksos‑ og AdBlue‑systemer. Med mer enn 25 års erfaring og mobil service reduserer vi nedetid for dine anleggsmaskiner.</p>
+  <!-- Features / selling points -->
+  <section class="features">
+    <div class="feature-item">
+      <div class="icon">⚡️</div>
+      <h3>Rask service</h3>
+      <p>Minimer nedetiden med vår mobile service.</p>
+    </div>
+    <div class="feature-item">
+      <div class="icon">💡</div>
+      <h3>Høy kompetanse</h3>
+      <p>Over 25 års erfaring og spesialtilpassede løsninger.</p>
+    </div>
+    <div class="feature-item">
+      <div class="icon">💰</div>
+      <h3>Gode priser</h3>
+      <p>Konkurransedyktige priser uten å gå på kompromiss med kvalitet.</p>
     </div>
   </section>
 
-  <section class="about">
-    <div class="container">
-      <h2>Hvorfor velge oss?</h2>
+  <!-- Services section -->
+  <section id="services" class="services">
+    <h2>Våre tjenester</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <div class="service-icon">🔧</div>
+        <h3>Eksosrens</h3>
+        <p>Rens av DPF, EGR og SCR for anleggsmaskiner.</p>
+      </div>
+      <div class="service-item">
+        <div class="service-icon">🛢️</div>
+        <h3>AdBlue‑systemer</h3>
+        <p>Vedlikehold, reparasjon og optimalisering av AdBlue.</p>
+      </div>
+      <div class="service-item">
+        <div class="service-icon">🔍</div>
+        <h3>Feilsøking</h3>
+        <p>Diagnostisering av motorfeil og elektroniske systemer.</p>
+      </div>
+      <div class="service-item">
+        <div class="service-icon">⚙️</div>
+        <h3>Tuning &amp; programmering</h3>
+        <p>Tuning og oppgradering av styringsprogramvare.</p>
+      </div>
+      <div class="service-item">
+        <div class="service-icon">🚐</div>
+        <h3>Service på stedet</h3>
+        <p>Vi kommer ut til deg for å løse problemer på maskinen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>Om Tuningservice Vest</h2>
+      <p>
+        Tuningservice Vest har over 25 års erfaring med motorservice,
+        feilsøking og vedlikehold av anleggsmaskiner. Vi tilbyr mobile
+        tjenester i hele Vestland og reduserer nedetid med vår høye
+        kompetanse. Som enkeltmannsforetak legger vi vekt på personlig
+        service, fagkunnskap og konkurransedyktige priser.
+      </p>
       <ul>
-        <li>Over 25 års bransjeerfaring og spisskompetanse.</li>
-        <li>Mobil service – vi kommer til deg med bil og verktøy.</li>
-        <li>Personlig oppfølging fra et enkeltpersonforetak.</li>
-        <li>Skreddersydde løsninger for dine behov.</li>
+        <li>25+ års erfaring med motorservice og tuning</li>
+        <li>Ekspert på DPF, EGR, AdBlue & SCR‑systemer</li>
+        <li>Mobil service med tilpassede verktøy</li>
       </ul>
     </div>
-  </section>
-
-  <section class="contact">
-    <div class="container">
-      <h2>Kontakt oss</h2>
-      <p>E‑post: <a href="mailto:vest@tuningservice.no">vest@tuningservice.no</a></p>
-      <p>Telefon: <a href="tel:+474809710">948 09 710</a></p>
-      <a href="mailto:vest@tuningservice.no" class="button">Send oss en e‑post</a>
+    <div class="about-image">
+      <img src="gears.png" alt="Illustrasjon av gir" />
     </div>
   </section>
 
+  <!-- Reasons section -->
+  <section class="reasons">
+    <h2>Derfor velger kunder oss</h2>
+    <ul class="reason-list">
+      <li><strong>Mindre nedetid:</strong> Rask utrykning og mobile tjenester reduserer driftsavbrudd.</li>
+      <li><strong>Høy kompetanse:</strong> Over 25 års erfaring i bransjen.</li>
+      <li><strong>Gode priser:</strong> Effektiv drift gir deg lavere kostnader.</li>
+      <li><strong>Kundemessig fokus:</strong> Personlig service og oppfølging.</li>
+    </ul>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="contact">
+    <h2>Kontakt oss</h2>
+    <p>
+      Har du problemer med eksosrensing, AdBlue eller DPF? Ta kontakt for en
+      uforpliktende prat – vi kommer til deg.
+    </p>
+    <div class="contact-details">
+      <div class="contact-item">
+        <h3>E‑post</h3>
+        <p><a href="mailto:vest@tuningservice.no">vest@tuningservice.no</a></p>
+      </div>
+      <div class="contact-item">
+        <h3>Telefon</h3>
+        <p><a href="tel:+4794809710">948 09 710</a> (Bjørn)</p>
+      </div>
+      <div class="contact-item">
+        <h3>Mobil service</h3>
+        <p>Vi kjører ut til din maskin.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Tuningservice Vest. Alle rettigheter forbeholdt.</p>
+    <p>
+      © 2026 Tuningservice Vest. Spesialister på eksosrens &amp; AdBlue – for en
+      mer driftssikker hverdag.
+    </p>
   </footer>
 </body>
 </html>
