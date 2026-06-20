@@ -1,123 +1,125 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuningservice Vest – Profesjonell tuning og diagnostikk</title>
-    <!-- Link to the dark/gold stylesheet -->
-    <!-- Updated path for CSS since style.css will be placed in root directory -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuningservice Vest – Diagnose og optimalisering på Vestlandet</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Header & Navigation -->
-    <header class="header">
-        <div class="container header__inner">
-            <a href="index.html" class="logo">
-                <img src="logo.png" alt="Tuningservice Vest logo">
-            </a>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li><a href="index.html">Hjem</a></li>
-                    <li><a href="#services">Tjenester</a></li>
-                    <li><a href="adblue/index.html">AdBlue</a></li>
-                    <li><a href="maskindiagnose/index.html">Maskindiagnose</a></li>
-                    <li><a href="#about">Om oss</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <!-- Updated image path since images will reside in root -->
-    <section class="hero" style="background-image: url('hero-machine.png');">
-        <div class="overlay">
-            <div class="container hero__content">
-                <h1>Profesjonell tuningservice for alle behov</h1>
-                <p>Vi leverer optimalisering, AdBlue‑løsninger og avansert maskindiagnose til landbruk, anlegg og transport.</p>
-                <a href="#contact" class="btn">Kontakt oss</a>
-            </div>
-        </div>
-    </section>
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <div class="brand">Tuningservice Vest</div>
+    <nav>
+      <a href="#tjenester">Tjenester</a>
+      <a href="#om">Om oss</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- Services Section -->
-    <section id="services" class="section services">
-        <div class="container">
-            <h2>Tjenester</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Chip Tuning</h3>
-                    <p>Øk ytelsen på motoren med skreddersydd programvare. Vi tilpasser tuningen til ditt kjøretøy for bedre effekt og drivstofføkonomi.</p>
-                </div>
-                <div class="card">
-                    <h3>AdBlue Delete</h3>
-                    <p>AdBlue systemet kan medføre driftsstans når det svikter. Vi tilbyr lovlig fjerning for anleggsmaskiner og spesialutstyr.<br><a href="adblue/index.html">Les mer →</a></p>
-                </div>
-                <div class="card">
-                    <h3>Maskindiagnose</h3>
-                    <p>Moderne diagnoseløsninger for å identifisere og løse feilkoder. Vi feilsøker anleggsmaskiner, traktorer og lastebiler.<br><a href="maskindiagnose/index.html">Les mer →</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+<main>
 
-    <!-- About Section -->
-    <section id="about" class="section about">
-        <div class="container about__inner">
-            <div class="about__image">
-                <img src="about-service-van.png" alt="Servicebil på oppdrag">
-            </div>
-            <div class="about__content">
-                <h2>Om Tuningservice Vest</h2>
-                <p>Med base i Vestland tilbyr vi mobil tuningservice for landbruk, anleggsmaskiner og transportkjøretøy. Vår lidenskap for maskiner og teknologi gjør at vi leverer skreddersydde løsninger som forbedrer driftssikkerhet og effektivitet.</p>
-                <p>Vi har lang erfaring innen motortuning, AdBlue‑systemer og avansert diagnostikk. Kontakt oss for en uforpliktende prat om hvordan vi kan hjelpe deg.</p>
-            </div>
-        </div>
-    </section>
+<section class="hero">
+  <div class="container hero-content">
+    <p class="eyebrow">Ambulerende diagnose og teknisk hjelp på Vestlandet</p>
+    <h1>Feilsøking, diagnose og optimalisering av bil, bobil, traktor og maskin.</h1>
+    <p class="lead">
+      Tuningservice Vest hjelper private, landbruk og bedrifter med praktisk feilsøking,
+      diagnose og tekniske løsninger direkte der kjøretøyet eller maskinen står.
+    </p>
+    <div class="hero-buttons">
+      <a class="btn primary" href="#kontakt">Kontakt oss</a>
+      <a class="btn secondary" href="#tjenester">Se tjenester</a>
+    </div>
+  </div>
+</section>
 
-    <!-- Gallery Section -->
-    <section class="section gallery">
-        <div class="container">
-            <h2>Galleri</h2>
-            <div class="gallery__grid">
-                <div class="gallery__item">
-                    <img src="gallery-tractor.png" alt="Traktor for landbruk">
-                </div>
-                <div class="gallery__item">
-                    <img src="adblue-system.png" alt="AdBlue system illustrasjon">
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="tjenester" class="section">
+  <div class="container">
+    <h2>Tjenester</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Diagnose og feilsøking</h3>
+        <p>
+          Vi leser feilkoder, tolker live-data og finner årsaken før du bruker penger på feil deler.
+        </p>
+      </article>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <div class="container contact__inner">
-            <h2>Kontakt oss</h2>
-            <p>Har du spørsmål eller ønsker tilbud? Fyll ut skjemaet under eller ring oss direkte.</p>
-            <form class="contact__form" action="mailto:post@tuningservicevest.no" method="post" enctype="text/plain">
-                <div class="form__group">
-                    <label for="name">Navn</label>
-                    <input type="text" id="name" name="navn" required>
-                </div>
-                <div class="form__group">
-                    <label for="email">E‑post</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form__group">
-                    <label for="message">Melding</label>
-                    <textarea id="message" name="melding" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send</button>
-            </form>
-        </div>
-    </section>
+      <article class="card">
+        <h3>AdBlue / SCR / NOx</h3>
+        <p>
+          Feilsøking av AdBlue-system, NOx-sensorer, krystallisering, dosering, trykk og relaterte feilkoder.
+        </p>
+      </article>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer__inner">
-            <p>&copy; 2026 Tuningservice Vest. Alle rettigheter reservert.</p>
-        </div>
-    </footer>
+      <article class="card">
+        <h3>DPF, EGR og motorstyring</h3>
+        <p>
+          Kontroll av partikkelfilter, EGR, regenerering, sensorer og årsaker til nødmodus eller redusert effekt.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Optimalisering</h3>
+        <p>
+          Tilpasset optimalisering for bedre kjørbarhet, respons og driftssikkerhet der regelverk og bruksområde tillater det.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Maskindiagnose</h3>
+        <p>
+          Diagnose og feilsøking på traktor, gravemaskin, hjullaster, dumper, lastebil og annet dieselutstyr.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Mobil service</h3>
+        <p>
+          Vi kommer til deg på verksted, gård, byggeplass, kai eller der utstyret står.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="om" class="section about">
+  <div class="container narrow">
+    <h2>Om Tuningservice Vest</h2>
+    <p>
+      Tuningservice Vest drives av en erfaren tekniker med over 25 års erfaring innen kjøretøy,
+      motorstyring, diagnose, feilsøking og praktisk problemløsning.
+    </p>
+    <p>
+      Målet er enkelt: finne årsaken, gi ærlige råd og hjelpe kunden raskere tilbake i drift.
+    </p>
+  </div>
+</section>
+
+<section id="kontakt" class="section contact">
+  <div class="container narrow">
+    <h2>Kontakt</h2>
+    <p>
+      Send registreringsnummer, maskintype eller kort beskrivelse av problemet, så tar vi en vurdering.
+    </p>
+
+    <div class="contact-box">
+      <p><strong>Telefon:</strong> 948 09 710</p>
+      <p><strong>E-post:</strong> vest@tuningservice.no</p>
+      <p><strong>Område:</strong> Vestlandet</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Tuningservice Vest</p>
+  </div>
+</footer>
+
 </body>
 </html>
